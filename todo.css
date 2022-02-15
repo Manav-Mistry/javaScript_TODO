@@ -1,0 +1,60 @@
+.remove-task {
+    color: darkorange;
+}
+
+ul{
+    font-size: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 0.5px solid lightgray;
+    border-bottom: none;
+    padding: 0.7em;
+    margin: 0;
+}
+
+li:last-child {
+    border-bottom: 0.5px solid lightgray ;
+}
+
+#taskInp {
+    /* border : none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid rgb(20, 20, 20);
+    border-radius: 0;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn{
+    border-radius: 0;
+    box-shadow: 2px 0px 5px grey;
+}
+
+#filterInp {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid rgb(153, 153, 153);
+    width: 95%;
+    outline: none;
+    transition: 0.5s cubic-bezier(0.42, 0, 0.42, 1.6);
+}
+
+#filterInp:focus{
+    /* background-position: 0 100%;
+    background-size: 100% 2px;
+    background-image: linear-gradient(to bottom, rgb(255, 153, 0), rgb(255, 153, 0));
+    background-repeat: no-repeat; */
+    border-bottom:2px solid rgb(255, 153, 0);
+    
+}
